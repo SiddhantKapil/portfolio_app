@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../Pycharm/similar_image_generation/SRGAN-PyTorch/.idea/SRGAN-PyTorch.iml" filepath="$PROJECT_DIR$/../../Pycharm/similar_image_generation/SRGAN-PyTorch/.idea/SRGAN-PyTorch.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/portfolio_app.iml" filepath="$PROJECT_DIR$/.idea/portfolio_app.iml" />
     </modules>
   </component>
