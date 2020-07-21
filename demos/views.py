@@ -1,6 +1,9 @@
 from django.shortcuts import render
 from .models import Post
+from rest_framework import generics
 from django.views.generic import  ListView
+from .serializers import DemosSerializer
+from . import views
 # Create your views here.
 def home(request):
     context = {
@@ -15,3 +18,8 @@ class PostListView(ListView):
 
 def about(request):
     return render(request, 'demos/about.html', {'title': 'About'})
+
+class DemosListCreate(generics.ListCreateAPIView):
+    queryset = Post.objects.all()
+    serializer_class = DemosSerializer
+
